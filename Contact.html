@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="Le Cv de Soumeya">
+    <title>CV Soumeya</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="menu"><a href="indext.html">Home</a></li>
+                <li class="menu"><a href="Formation.html">Formation</a></li>
+                <li class="menu"><a href="Contact.html">Contact</a></li>
+                <li class="menu"><a href="hobby.html">Hobby</a></li>
+                <li><img class="logo" src="photo/Soum.png " alt="Soumeya Ghalem"></li>
+            </ul>
+        </nav>
+    </header>
+
+    <article class="Hello">
+        <h1>Say Hello</h1>
+        <form action="https://httpbin.org/post" method="post">
+            <div class="lieu">
+                <label for="Grenoble">Grenoble</label>
+                <input type="radio" name="Lieu" id="Grenoble">
+                <label for="Lyon">Lyon</label>
+                <input type="radio" name="Lieu" id="Lyon">
+            </div>
+            <div class="bleu">
+                <div class="nom">
+                    <label for="nom&prenominput">Nom & Prénom</label>
+                    <input placeholder="ex: Julien " name="name" id="nom&prenominput">
+                </div>
+                <div class="nom">
+                    <label for="mailinput">Mail</label>
+                    <input placeholder="ex:julien@gmail.com" type="text" name="mail" id="mailinput">
+                </div>
+                <div class="nom">
+                    <label for="entrepriseinput">Nom de l'entreprise</label>
+                    <input placeholder="ex:Julien compagnie" type="text" name="entreprise" id="entrepriseinput">
+                </div>
+                <div class="nom">
+                    <label for="votremessageinput">Votre Message</label>
+                    <textarea placeholder="ex:Votre profil m'intéresse" name="votremessage"
+                        id="votremessageinput"></textarea>
+                </div>
+            </div>
+            <div class="submit">
+                <input type="submit" value="Envoyer">
+            </div>
+        </form>
+        </div>
+    </article>
